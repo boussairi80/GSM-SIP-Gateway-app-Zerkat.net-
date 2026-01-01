@@ -1,120 +1,174 @@
-# Android-Based GSM SIP Gateway (GoIP Alternative), zerkat.net
+Android-Based GSM ↔ SIP Gateway
+GoIP Alternative for Android — zerkat.net
 
-This project turns an **Android phone into a GSM ↔ SIP Gateway**, functioning similarly to a **GoIP device**, but implemented entirely in software.
+This project turns a supported Android phone into a full GSM ↔ SIP Gateway, functioning similarly to a GoIP device, but implemented entirely in software.
 
-It allows:
-- Bridging **SIP/VoIP calls to GSM calls**
-- Using an Android phone as a **GoIP replacement**
-- Integration with **Asterisk / FreePBX**
-- GSM call routing without physical GoIP hardware
+By leveraging the Android telephony stack and SIP integration, a standard Android device can act as a GoIP replacement, enabling two-way call routing between GSM (SIM) and SIP/VoIP systems without dedicated GSM gateway hardware.
 
-zerkat.net
+🌐 Project website: https://zerkat.net
 
-🚀 Requirement : 
-Root access is required
-Samsung Android devices only
-support Any Android version 
+🔎 What This Project Is
 
+An Android-based GSM SIP Gateway
 
-By converting standard GSM gateway hardware functionality into an Android application, any supported Android device can act as a full SIP ↔ GSM bridge, enabling two-way call routing between SIM cards and SIP accounts—without dedicated GSM gateway hardware.
+A software alternative to GoIP hardware
 
-This approach dramatically simplifies deployment, reduces costs, and unlocks new mobile and remote use cases.
+A solution to bridge SIP/VoIP systems with GSM networks
 
-Key Features
+Designed for Asterisk / FreePBX / SIP PBX integration
 
-📱 Android-powered GSM Gateway
-Turn supported Android devices into fully functional SIP ↔ GSM gateways
+Suitable for portable, remote, and cost-sensitive deployments
+
+🚀 Key Capabilities
+📱 Android-Powered GSM Gateway
+
+Turn supported Android devices into fully functional SIP ↔ GSM gateways using SIM cards.
 
 🔁 Two-Way Call Bridging
-Seamless routing between GSM (SIM) calls and SIP accounts (inbound & outbound)
+
+SIP → GSM (outbound calls via SIM)
+
+GSM → SIP (incoming GSM calls routed to SIP)
 
 🧩 No Dedicated Hardware Required
-No GSM gateway boxes, antennas, wiring, or proprietary hardware
+
+No GoIP boxes, GSM modems, antennas, or proprietary gateway hardware.
 
 🚀 Portable & Flexible
-Ideal for mobile deployments, remote locations, temporary installations, and backup routing
+
+Ideal for:
+
+Mobile deployments
+
+Remote locations
+
+Temporary installations
+
+Backup routing
+
+Disaster recovery scenarios
 
 💰 Cost-Effective
-Significantly reduces hardware, installation, and maintenance costs
+
+Significantly reduces:
+
+Hardware costs
+
+Installation complexity
+
+Maintenance overhead
 
 📈 Simple Scalability
-Scale horizontally by adding more Android devices as needed
 
+Scale horizontally by adding more authorized Android devices.
 
-🚀 Requirement : 
-Root access is required
-Samsung Android devices only
-support Any Android version 
+🧠 Typical Use Cases
 
+Replace GoIP GSM gateways with Android phones
 
-Additional Notes
+SIP trunk breakout to GSM
 
-Custom ROMs and other devices like (oppo,huawei,xiaomi,....) may work but are not officially supported , 
+GSM backup routing for PBX systems
+
+Mobile or field-deployed GSM gateways
+
+Low-cost multi-SIM SIP routing
+
+⚙️ System Requirements
+
+🚀 Mandatory Requirements
+
+✅ Root access is required
+
+✅ Samsung Android devices only (officially supported)
+
+✅ Any Android version supported
+
+⚠️ Additional Notes
+
+Other devices (Oppo, Huawei, Xiaomi, etc.) or custom ROMs may work
+but are not officially supported
 
 This project is not intended for Google Play Store distribution
 
+🏗️ Architecture Overview
 
-APK Distribution & Trial Policy
+The application replaces traditional GSM gateway hardware by:
 
-This repository includes a prebuilt APK for evaluation purposes.
+Using the Android telephony stack for GSM call handling
+
+Bridging audio and signaling with SIP accounts
+
+Acting as a software GSM ↔ SIP bridge
+
+Integrating directly with SIP PBX systems (Asterisk / FreePBX)
+
+📦 APK Distribution & Trial Policy
+
+This repository includes a prebuilt APK for evaluation and testing purposes.
 
 Due to the nature of telecom systems and SIM-based routing, the application uses a device-binding security mechanism.
 
-Device Binding
+🔐 Device Binding & Authorization
 
 Each installation is bound to a specific device
 
-A device must be explicitly authorized by our server before it becomes operational
+Devices must be explicitly authorized by our server
 
-Unauthorized devices will not be able to place or receive calls
+Unauthorized devices:
+
+❌ Cannot place calls
+
+❌ Cannot receive calls
 
 This approach prevents abuse and ensures controlled, legitimate usage.
 
-Free Trial
+🧪 Free Trial
 
-7-day free trial is available upon request
+⏱ 7-day free trial available upon request
 
-Trial period starts after device authorization
+Trial starts after device authorization
 
-During the trial, all core GSM ↔ SIP features are enabled
+During the trial:
+
+All core GSM ↔ SIP features are enabled
 
 After the trial period:
 
 Continued usage requires approval or a commercial agreement
 
-How to Request Access
+📝 How to Request Access
 
 Install the provided APK
 
 Launch the application
 
-Submit your device ID through the provided interface
+Submit your device ID through the application interface
 
-Wait for authorization from our server
+Wait for server authorization
 
-Once approved, the trial period begins automatically
+Once approved, the trial period starts automatically
 
-Important Notes
+⚠️ Important Notes
 
-Root access is still mandatory
+Root access is always required
 
 Device authorization is manual
 
 This project is not fully open-source
 
-The APK is provided for evaluation and testing purposes only
+The APK is provided for evaluation and testing only
 
-Licensing & Usage
+📜 Licensing & Usage
 
-The source code in this repository is provided for reference and documentation
+Source code in this repository is provided for reference and documentation
 
 The APK remains proprietary
 
-Redistribution of the APK is not permitted without written permission
+❌ Redistribution of the APK is not permitted without written permission
 
+🌐 More Information
 
+For documentation, access requests, and commercial inquiries, visit:
 
-
-for more infos , please check website : 
-zerkat.net
-
+👉 https://zerkat.net
