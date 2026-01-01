@@ -1,5 +1,33 @@
-Android app GSM ↔ SIP Gateway
-,we replaced the old gsm gateway hardware by pure Android app
+Android app GSM ↔ SIP Gateway replace the old gsm gateway hardware 
+
+🚀 Key Capabilities
+📱 Android-Powered GSM Gateway
+
+Turn supported Android devices into fully functional SIP ↔ GSM gateways using SIM cards.
+
+🔁 Two-Way Call Bridging
+
+SIP → GSM (outbound calls via SIM)
+
+GSM → SIP (incoming GSM calls routed to SIP)
+
+🧩 No Dedicated Hardware Required
+
+No GoIP boxes, GSM modems, antennas, or proprietary gateway hardware.
+
+
+
+
+
+
+
+
+
+1. SIP call is received by the SIP endpoint
+2. Application extracts the destination number from SIP call
+3. Initiates outgoing GSM call using the telephony endpoint
+4. Bridges audio between SIP and GSM calls
+5. Handles call state synchronization (ringing, connected, terminated)
 this app demonstrates a **working and deployable solution**,
 with confirmed call routing between SIP and GSM networks.
 This project turns a supported Android phone into a full GSM ↔ SIP Gateway, functioning similarly to a GoIP device, but implemented entirely in software, works on any sumsung android device
@@ -20,20 +48,7 @@ Designed for Asterisk / FreePBX / SIP PBX integration
 
 Suitable for portable, remote, and cost-sensitive deployments
 
-🚀 Key Capabilities
-📱 Android-Powered GSM Gateway
 
-Turn supported Android devices into fully functional SIP ↔ GSM gateways using SIM cards.
-
-🔁 Two-Way Call Bridging
-
-SIP → GSM (outbound calls via SIM)
-
-GSM → SIP (incoming GSM calls routed to SIP)
-
-🧩 No Dedicated Hardware Required
-
-No GoIP boxes, GSM modems, antennas, or proprietary gateway hardware.
 
 🚀 Portable & Flexible
 
