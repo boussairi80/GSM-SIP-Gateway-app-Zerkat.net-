@@ -1,5 +1,13 @@
-# Android-Based-GSM-SIP-Gateway (zerkat.net)
-This project introduces an android app GSM–SIP gateway built entirely on Android.
+# Android-Based GSM SIP Gateway (GoIP Alternative), zerkat.net
+
+This project turns an **Android phone into a GSM ↔ SIP Gateway**, functioning similarly to a **GoIP device**, but implemented entirely in software.
+
+It allows:
+- Bridging **SIP/VoIP calls to GSM calls**
+- Using an Android phone as a **GoIP replacement**
+- Integration with **Asterisk / FreePBX**
+- GSM call routing without physical GoIP hardware
+
 zerkat.net
 
 🚀 Requirement : 
