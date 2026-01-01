@@ -28,9 +28,14 @@ No GoIP boxes, GSM modems, antennas, or proprietary gateway hardware.
 3. Initiates outgoing GSM call using the telephony endpoint
 4. Bridges audio between SIP and GSM calls
 5. Handles call state synchronization (ringing, connected, terminated)
+
+
+
+
+
 this app demonstrates a **working and deployable solution**,
 with confirmed call routing between SIP and GSM networks.
-This project turns a supported Android phone into a full GSM ↔ SIP Gateway, functioning similarly to a GoIP device, but implemented entirely in software, works on any sumsung android device
+This App turns a supported Android phone into a full GSM ↔ SIP Gateway, functioning similarly to a GoIP device, but implemented entirely in software, works on any sumsung android device
 
 By leveraging the Android telephony stack and SIP integration, a standard Android device can act as a GoIP replacement, enabling two-way call routing between GSM (SIM) and SIP/VoIP systems without dedicated GSM gateway hardware.
 
