@@ -1,8 +1,7 @@
 Android-Based GSM ↔ SIP Gateway
-GoIP Alternative for Android — zerkat.net
-While projects like Telon aim to bridge GSM telephony and SIP using Android devices,
-this project demonstrates a **working and deployable solution**,
-with confirmed call routing between SIP PBXs and GSM networks.
+GoIP replaced by pure Android app — zerkat.net
+this app demonstrates a **working and deployable solution**,
+with confirmed call routing between SIP and GSM networks.
 zerkat.net
 This project turns a supported Android phone into a full GSM ↔ SIP Gateway, functioning similarly to a GoIP device, but implemented entirely in software.
 
