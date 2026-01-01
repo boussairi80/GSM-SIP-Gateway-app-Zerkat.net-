@@ -1,9 +1,8 @@
-Android-Based GSM ↔ SIP Gateway
-GoIP replaced by pure Android app — zerkat.net
+Android app GSM ↔ SIP Gateway
+,we replaced the old gsm gateway hardware by pure Android app
 this app demonstrates a **working and deployable solution**,
 with confirmed call routing between SIP and GSM networks.
-zerkat.net
-This project turns a supported Android phone into a full GSM ↔ SIP Gateway, functioning similarly to a GoIP device, but implemented entirely in software.
+This project turns a supported Android phone into a full GSM ↔ SIP Gateway, functioning similarly to a GoIP device, but implemented entirely in software, works on any sumsung android device
 
 By leveraging the Android telephony stack and SIP integration, a standard Android device can act as a GoIP replacement, enabling two-way call routing between GSM (SIM) and SIP/VoIP systems without dedicated GSM gateway hardware.
 
