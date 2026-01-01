@@ -164,7 +164,6 @@ Install the provided APK
 
 Launch the application
 
-Submit your device ID through the application interface
 
 Wait for server authorization
 
